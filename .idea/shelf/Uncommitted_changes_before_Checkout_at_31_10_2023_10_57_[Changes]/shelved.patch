@@ -1,0 +1,61 @@
+Index: src/main/java/fileHandler/ContentFormatter.java
+===================================================================
+diff --git a/src/main/java/fileHandler/ContentFormatter.java b/src/main/java/fileHandler/ContentFormatter.java
+--- a/src/main/java/fileHandler/ContentFormatter.java	
++++ b/src/main/java/fileHandler/ContentFormatter.java	
+@@ -1,2 +1,4 @@
+-package fileHandler;public class ContentFormatter {
++package fileHandler;
++
++public class ContentFormatter {
+ }
+Index: src/main/java/fileHandler/FileHandlerApp.java
+===================================================================
+diff --git a/src/main/java/fileHandler/FileHandlerApp.java b/src/main/java/fileHandler/FileHandlerApp.java
+--- a/src/main/java/fileHandler/FileHandlerApp.java	
++++ b/src/main/java/fileHandler/FileHandlerApp.java	
+@@ -19,11 +19,11 @@
+ 
+ import java.util.Iterator;
+ 
+-public class FileHandler {
++public class FileHandlerApp {
+ 
+     private String filename;
+ 
+-    public FileHandler(String filename) {
++    public FileHandlerApp(String filename) {
+         this.filename = filename;
+     }
+ 
+@@ -75,7 +75,7 @@
+ 
+     public static void main(String[] args) {
+         try {
+-            FileHandler handler = new FileHandler("src/main/resources/sample.txt");
++            FileHandlerApp handler = new FileHandlerApp("src/main/resources/sample.txt");
+             String content = handler.readFile();
+             System.out.println(content);
+ 
+Index: src/main/java/fileHandler/FileWriter.java
+===================================================================
+diff --git a/src/main/java/fileHandler/FileWriter.java b/src/main/java/fileHandler/FileWriter.java
+--- a/src/main/java/fileHandler/FileWriter.java	
++++ b/src/main/java/fileHandler/FileWriter.java	
+@@ -1,2 +1,4 @@
+-package fileHandler;public class FileWriter {
++package fileHandler;
++
++public class FileWriter {
+ }
+Index: src/main/java/fileHandler/FileReader.java
+===================================================================
+diff --git a/src/main/java/fileHandler/FileReader.java b/src/main/java/fileHandler/FileReader.java
+--- a/src/main/java/fileHandler/FileReader.java	
++++ b/src/main/java/fileHandler/FileReader.java	
+@@ -1,2 +1,4 @@
+-package fileHandler;public class FileReader {
++package fileHandler;
++
++public class FileReader {
+ }

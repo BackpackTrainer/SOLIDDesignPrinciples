@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7123309d-90bd-4d44-b564-efc561576e5e" name="Changes" comment="Restored the order package and its classes (Order, LineItem and Product">
+      <change afterPath="$PROJECT_DIR$/src/main/java/fileHandler/ContentFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fileHandler/FileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fileHandler/FileWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fileHandlerSolution/AutoCloseFileWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileHandlerSolution/AutoCloseFileWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fileHandler/FileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileHandler/FileHandlerApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +31,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2WuQzns2EMjJLuwZtbKMPCtc0bZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -40,18 +47,19 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/billf/OneDrive/Desktop/BitbucketTest/quicktest",
+    "last_opened_file_path": "C:/Users/91967/Workspace/SOLIDDesignPrinciples",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "configurable.group.appearance"
+    "settings.editor.selected.configurable": "configurable.group.appearance",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FileHandler">
-    <configuration name="FileHandler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fileHandler.FileHandler" />
-      <module name="SolidPrinciples" />
+  <component name="RunManager" selected="Application.FileHandlerApp">
+    <configuration name="FileHandlerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fileHandler.FileHandlerApp" />
+      <module name="SOLIDDesignPrinciples" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="fileHandler.*" />
@@ -77,7 +85,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FileHandler" />
+        <item itemvalue="Application.FileHandlerApp" />
         <item itemvalue="Application.fileHandlerSolution.FileHandlerApp" />
       </list>
     </recent_temporary>
@@ -91,6 +99,8 @@
       <option name="presentableId" value="Default" />
       <updated>1697580251202</updated>
       <workItem from="1697580253515" duration="21598000" />
+      <workItem from="1698747768669" duration="28000" />
+      <workItem from="1698747889167" duration="1764000" />
     </task>
     <task id="LOCAL-00001" summary="Restored the order package and its classes (Order, LineItem and Product">
       <created>1698103748897</created>
