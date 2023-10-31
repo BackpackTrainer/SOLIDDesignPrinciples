@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="7123309d-90bd-4d44-b564-efc561576e5e" name="Changes" comment="Restored the order package and its classes (Order, LineItem and Product">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fileHandlerSolution/AutoCloseFileWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileHandlerSolution/AutoCloseFileWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fileHandler/ContentFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileHandler/ContentFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fileHandler/FileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileHandler/FileHandlerApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fileHandler/FileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileHandler/FileReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fileHandler/FileWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileHandler/FileWriter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,36 +25,45 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="classes" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2WuQzns2EMjJLuwZtbKMPCtc0bZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/billf/OneDrive/Desktop/BitbucketTest/quicktest",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "configurable.group.appearance"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/91967/Workspace/SOLIDDesignPrinciples&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.FileHandler">
-    <configuration name="FileHandler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fileHandler.FileHandler" />
-      <module name="SolidPrinciples" />
+}</component>
+  <component name="RunManager" selected="Application.FileHandlerApp">
+    <configuration name="FileHandlerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fileHandler.FileHandlerApp" />
+      <module name="SOLIDDesignPrinciples" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="fileHandler.*" />
@@ -77,7 +89,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FileHandler" />
+        <item itemvalue="Application.FileHandlerApp" />
         <item itemvalue="Application.fileHandlerSolution.FileHandlerApp" />
       </list>
     </recent_temporary>
@@ -91,6 +103,8 @@
       <option name="presentableId" value="Default" />
       <updated>1697580251202</updated>
       <workItem from="1697580253515" duration="21598000" />
+      <workItem from="1698747768669" duration="28000" />
+      <workItem from="1698747889167" duration="3273000" />
     </task>
     <task id="LOCAL-00001" summary="Restored the order package and its classes (Order, LineItem and Product">
       <created>1698103748897</created>
