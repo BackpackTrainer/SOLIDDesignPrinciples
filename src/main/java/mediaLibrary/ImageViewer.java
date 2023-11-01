@@ -1,9 +1,14 @@
 package mediaLibrary;
 
-class ImageViewer implements MediaPlayer {
+class ImageViewer implements ImageMediaPlayer {
     // Implementation skipped for brevity
-    public void play() { /* Empty or exception-throwing method - not applicable for images */ }
-    public void display() { /* Display image */ }
-    public void printInfo() { /* Print image file info */ }
-    public void loadMedia(String filename) { /* Load image file */ }
+    public void display() {
+        System.out.println("The image is displayed");
+    }
+    public void printInfo() {
+        System.out.println("The image is printed");
+    }
+    public void loadMedia(String filename) {
+        System.out.println("The image is loaded");
+    }
 }

@@ -1,9 +1,8 @@
 package mediaLibrary;
 
-class AudioPlayer implements MediaPlayer {
+class AudioPlayer implements AudioMediaPlayer {
     // Implementation skipped for brevity
-    public void play() { /* Play audio */ }
-    public void display() { /* Empty or exception-throwing method - not applicable for audio */ }
-    public void printInfo() { /* Print audio file info */ }
-    public void loadMedia(String filename) { /* Load audio file */ }
+    public void play() {System.out.println("The audio is being played");}
+    public void printInfo() {System.out.println("The Audio file is printed");}
+    public void loadMedia(String filename) {System.out.println("The audio file is loaded"); }
 }
