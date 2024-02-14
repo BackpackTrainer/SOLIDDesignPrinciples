@@ -18,9 +18,6 @@ public class Order {
         }
         return total;
     }
-    public void save() {
-        //bunch of SQL commands for writing to the database here
-    }
 
     public void print()  {
         // assuming we want to print to the console, a bunch of println commands here
