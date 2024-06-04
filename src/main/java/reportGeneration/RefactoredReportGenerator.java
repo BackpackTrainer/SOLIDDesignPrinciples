@@ -14,5 +14,6 @@ public class RefactoredReportGenerator {
     public void generate(Report report) {
         String formattedReport = formatter.formatReport(report);
         System.out.println(formattedReport);
+        System.out.println("Report created on: " + report.getDateCreated());
     }
 }
