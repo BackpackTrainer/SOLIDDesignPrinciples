@@ -5,7 +5,7 @@ public class CalculatorApp {
         RefactoredCalculator calculator = new RefactoredCalculator();
         JSONResultsPrinter printer = new JSONResultsPrinter();
 
-        int a = 5;
+        int a = 6;
         int b = 3;
 
         int sum = calculator.add(a, b);

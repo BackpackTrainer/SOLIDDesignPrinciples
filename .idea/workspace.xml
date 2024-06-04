@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7123309d-90bd-4d44-b564-efc561576e5e" name="Changes" comment="Restored the order package and its classes (Order, LineItem and Product">
-      <change afterPath="$PROJECT_DIR$/src/main/java/calculator/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/calculator/CalculatorApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/calculator/JSONResultsPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/calculator/RefactoredCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FirstUnitTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fileHandler/FileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileHandler/FileHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reportGeneration/RefactoredReportGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reportGeneration/RefactoredReportGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/calculator/JSONResultsPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculator/JSONResultsPrinter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +49,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
   }
 }</component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+    </option>
+  </component>
   <component name="RunManager" selected="Application.calculator.CalculatorApp">
     <configuration name="FileHandler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fileHandler.FileHandler" />
@@ -129,6 +128,7 @@
       <workItem from="1698587354239" duration="3607000" />
       <workItem from="1698853224729" duration="174000" />
       <workItem from="1717458521161" duration="5348000" />
+      <workItem from="1717530754220" duration="2678000" />
     </task>
     <task id="LOCAL-00001" summary="Restored the order package and its classes (Order, LineItem and Product">
       <created>1698103748897</created>
