@@ -4,10 +4,10 @@ import java.io.IOException;
 import java.util.List;
 
 public class UserOperations {
-    private userManager.UserFileReader reader;
+    private UserFileReader reader;
     private UserFileWriter writer;
 
-    public UserOperations(userManager.UserFileReader reader, UserFileWriter writer) {
+    public UserOperations(UserFileReader reader, UserFileWriter writer) {
         this.reader = reader;
         this.writer = writer;
     }

@@ -6,7 +6,7 @@ public class UserManagerApp {
     public static void main(String[] args) {
         try {
             String filepath = "src/main/resources/users.txt";
-            userManager.UserFileReader reader = new userManager.UserFileReader(filepath);
+            UserFileReader reader = new UserFileReader(filepath);
             UserFileWriter writer = new UserFileWriter(filepath);
             UserOperations operations = new UserOperations(reader, writer);
 
