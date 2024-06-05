@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7123309d-90bd-4d44-b564-efc561576e5e" name="Changes" comment="Restored the order package and its classes (Order, LineItem and Product">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/birds/BirdApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/birds/Hawk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/birds/IBird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/shapes/RefactoredSquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/Contractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/Freelancer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/birds/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/birds/Bird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/birds/Ostrich.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/birds/Ostrich.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/notificationService/InitialUserNotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/notificationService/InitialUserNotificationService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +67,20 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.usermanagersolution.UserManagerApp">
+  <component name="RunManager" selected="Application.BirdApp">
+    <configuration name="BirdApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="birds.BirdApp" />
+      <module name="SolidPrinciples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="birds.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="userManager.UserManager" />
       <module name="SolidPrinciples" />
@@ -98,19 +120,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="fileHandlerSolution.FileHandlerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fileHandlerSolution.FileHandlerApp" />
-      <module name="SolidPrinciples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fileHandlerSolution.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="usermanagersolution.UserManagerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="usermanagersolution.UserManagerApp" />
       <module name="SolidPrinciples" />
@@ -126,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BirdApp" />
         <item itemvalue="Application.usermanagersolution.UserManagerApp" />
         <item itemvalue="Application.userManager.UserManager" />
         <item itemvalue="Application.calculator.CalculatorApp" />
         <item itemvalue="Application.calculator.Calculator" />
-        <item itemvalue="Application.fileHandlerSolution.FileHandlerApp" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +155,7 @@
       <workItem from="1698587354239" duration="3607000" />
       <workItem from="1698853224729" duration="174000" />
       <workItem from="1717458521161" duration="5348000" />
-      <workItem from="1717530754220" duration="9045000" />
+      <workItem from="1717530754220" duration="14697000" />
     </task>
     <task id="LOCAL-00001" summary="Restored the order package and its classes (Order, LineItem and Product">
       <created>1698103748897</created>
