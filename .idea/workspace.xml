@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7123309d-90bd-4d44-b564-efc561576e5e" name="Changes" comment="Restored the order package and its classes (Order, LineItem and Product">
+      <change afterPath="$PROJECT_DIR$/src/main/java/usermanager/UserFileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/usermanager/UserFileWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/usermanager/UserManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/usermanager/UserManagerApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/usermanager/UserOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Users.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/calculator/JSONResultsPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculator/JSONResultsPrinter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,18 +53,36 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\billf\OneDrive\Desktop\Test Projects\SolidPrinciples\src\main\resources" />
+    </key>
+  </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.calculator.CalculatorApp">
-    <configuration name="FileHandler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fileHandler.FileHandler" />
+  <component name="RunManager" selected="Application.UserManagerApp">
+    <configuration name="UserManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="userManager.UserManager" />
       <module name="SolidPrinciples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fileHandler.*" />
+          <option name="PATTERN" value="userManager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserManagerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="usermanager.UserManagerApp" />
+      <module name="SolidPrinciples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="usermanager.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,10 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UserManagerApp" />
+        <item itemvalue="Application.userManager.UserManager" />
         <item itemvalue="Application.calculator.CalculatorApp" />
         <item itemvalue="Application.calculator.Calculator" />
         <item itemvalue="Application.fileHandlerSolution.FileHandlerApp" />
-        <item itemvalue="Application.FileHandler" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +151,7 @@
       <workItem from="1698587354239" duration="3607000" />
       <workItem from="1698853224729" duration="174000" />
       <workItem from="1717458521161" duration="5348000" />
-      <workItem from="1717530754220" duration="2678000" />
+      <workItem from="1717530754220" duration="4726000" />
     </task>
     <task id="LOCAL-00001" summary="Restored the order package and its classes (Order, LineItem and Product">
       <created>1698103748897</created>
