@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7123309d-90bd-4d44-b564-efc561576e5e" name="Changes" comment="Restored the order package and its classes (Order, LineItem and Product" />
+    <list default="true" id="7123309d-90bd-4d44-b564-efc561576e5e" name="Changes" comment="Restored the order package and its classes (Order, LineItem and Product">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/discountStrategy/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/discountStrategy/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Users.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Users.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -143,7 +147,7 @@
       <workItem from="1698587354239" duration="3607000" />
       <workItem from="1698853224729" duration="174000" />
       <workItem from="1717458521161" duration="5348000" />
-      <workItem from="1717530754220" duration="5743000" />
+      <workItem from="1717530754220" duration="7740000" />
     </task>
     <task id="LOCAL-00001" summary="Restored the order package and its classes (Order, LineItem and Product">
       <created>1698103748897</created>

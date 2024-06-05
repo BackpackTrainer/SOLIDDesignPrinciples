@@ -1,3 +1,7 @@
+//TODO:  Refactor the order class so that we can have a variety of different discounts.
+//We should not have to change the Order class every time we want to add a new discount.
+//There will only be one discount at a time
+
 package discountStrategy;
 
 public class Order {
