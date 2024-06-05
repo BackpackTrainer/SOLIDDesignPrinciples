@@ -1,13 +1,13 @@
-package userManager;
+package usermanagersolution;
 
 import java.io.IOException;
 import java.util.List;
 
 public class UserOperations {
     private userManager.UserFileReader reader;
-    private userManager.UserFileWriter writer;
+    private UserFileWriter writer;
 
-    public UserOperations(userManager.UserFileReader reader, userManager.UserFileWriter writer) {
+    public UserOperations(userManager.UserFileReader reader, UserFileWriter writer) {
         this.reader = reader;
         this.writer = writer;
     }

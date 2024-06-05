@@ -1,4 +1,4 @@
-package usermanager;
+package usermanagersolution;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ public class UserManagerApp {
         try {
             String filepath = "src/main/resources/users.txt";
             userManager.UserFileReader reader = new userManager.UserFileReader(filepath);
-            userManager.UserFileWriter writer = new userManager.UserFileWriter(filepath);
-            userManager.UserOperations operations = new userManager.UserOperations(reader, writer);
+            UserFileWriter writer = new UserFileWriter(filepath);
+            UserOperations operations = new UserOperations(reader, writer);
 
             operations.addUser("John Doe");
             operations.addUser("Jane Doe");

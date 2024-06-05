@@ -1,4 +1,4 @@
-package userManager;
+package usermanagersolution;
 
 import java.io.FileWriter;
 import java.io.IOException;
