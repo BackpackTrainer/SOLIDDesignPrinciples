@@ -1,3 +1,7 @@
+//TODO:  As written, this code throws an unexpected exception when the ostrich is told to fly.
+//Refactor the code so that no client will receive an unexpected exception.
+//Note that lots of birds (kiwis, penguins, etc.) can't fly.
+
 package birds;
 
 public class BirdApp {
